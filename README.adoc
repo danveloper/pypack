@@ -1,6 +1,6 @@
 = Ratpack Python Application
 
-This is a Ratpack application written in Python with the assistance of Jython. Not perfect, but it works.
+This is a Ratpack application written in Python with the use of Jython. Not perfect, but it works.
 
 == What to do?
 
