@@ -1,0 +1,9 @@
+buildscript { 
+  repositories { mavenLocal(); jcenter() }
+  dependencies { 
+    classpath 'com.github.danveloper:gradle-py:1.0.0'
+    classpath 'io.ratpack:ratpack-gradle:1.3.3'
+  }
+}
+apply plugin: 'py-build'
+mainClassName = 'app.Main' // still can't do some things in the buildscript plugin :-(
